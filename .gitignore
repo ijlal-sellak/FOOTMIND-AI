@@ -1,0 +1,41 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Security and credentials
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Neo4j
+neo4j_data/
+neo4j_logs/
+
+# Logs and cache
+*.log
+.cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Operating system
+.DS_Store
+Thumbs.db
